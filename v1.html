@@ -1,7 +1,10 @@
-<header><a href="https://www.amazon.com/">Back to amazon</a> 
+<header><a class="amazon" href="https://www.amazon.com/">Back to amazon</a> 
 
 </header>
 <style>
+    .amazon:hover{
+color: blueviolet;
+    }
 .cijena {
     color: rgb(0, 118, 0);
     font-weight: bold;
@@ -16,6 +19,13 @@
     cursor: pointer;
     border-style: none;
     margin-right: 20px;
+    box-shadow: opacity 0.15s;
+}
+.cart:hover {
+    opacity: 0.8;
+}
+.cart:active{
+    opacity: 0.4;
 }
 .kupi {
     background-color: rgb(255, 164, 28);
@@ -24,7 +34,14 @@
     border-radius: 17px;
     cursor: pointer;
     border-style: none;
+    transition: background-color 0.15s,opacity 0.15s;
 
+}
+.kupi:hover{
+    opacity: 0.8;
+}
+.kupi:active{
+    background-color: green;
 }
 .deliveryy{
     margin-bottom: 30px;
