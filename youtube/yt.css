@@ -1,0 +1,71 @@
+
+
+.thumbnails{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 300px;
+    vertical-align: middle;
+    
+}
+.searchbar{
+    height: 40px;
+    width: 300px;
+    vertical-align: middle;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 10px;
+    color: gray;
+}
+.tvitaj{
+    background-color: rgb(10, 117, 174);
+    border-style: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin-left: -90px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.tvitaj:hover{
+    opacity: 0.7;
+}
+.tvitaj:active{
+    opacity: 0.4;
+}
+.linkedln{
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+.p1{
+margin-bottom: 5px;  
+}
+
+.i1{
+    height: 20px;
+    width: 370px;
+    border-style: solid;
+
+}
+.p2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.b1{
+    background-color: rgb(0, 60, 255);
+    border-style: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 380px;
+    border-radius: 30px;
+    font-weight: bold;
+
+}

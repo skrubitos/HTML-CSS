@@ -1,0 +1,224 @@
+
+        .crta{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .p1 {
+            font-family: Roboto;
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+            margin-bottom: -30px;
+        }
+        .p2{
+            font-family: Arial;
+            font-weight: bold;
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 0px;
+        }
+        .p3{
+            font-family: Arial;
+            font-style: italic;
+            color: red;
+            font-size: 20px;
+            margin-top: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .p4{
+            font-family: Vedrana;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 0;
+            text-align: center;}
+        .p5{
+            font-family: Vedrana;
+            color: gray;
+            margin-top: 5px;
+            font-size: 20px;
+            margin-bottom: 25px;
+            text-align: center;}
+        .p6{
+            font-family: Verdana;
+            font-size: 15px;
+            
+            margin-bottom: 30px;
+            text-align: center;
+        }
+    .pocni{
+        background-color: green;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 15px;
+        border-style: none;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+    
+    .pocni:hover{
+    opacity: 0.7;
+    }
+    .p7{font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5px;
+        }
+    .p8{
+        font-family: Arial;
+        text-align: center;
+        margin-bottom: 10px;
+        }
+    .p9{
+        font-family: Arial;
+        text-align: center;
+        color: blue;
+        text-decoration: underline;
+    }
+    .ajfon{
+        text-align: center;
+        font-family: Arial;
+    }
+    
+     .e5{
+        color: rgb(228, 159, 33);
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 9px;
+        margin-top: 50px;
+     }
+    .e51{
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .e52{
+        font-size: 45px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .e53{
+        margin-top:10px;
+    }
+    .kupi{
+        color: white;
+        background-color: rgb(12, 103, 200);
+        border-style: none;
+        height: 35px;
+        width: 85px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 17px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .kupi:hover{
+        opacity: 0.7;
+    }
+        .pare{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    }
+    
+    .dolari{
+    color: grey;
+    font-size:20px;
+    margin-left: 4px;
+    }
+    .postotci{
+        margin-top: 6px;
+        margin-bottom: 8px;
+        color: green;
+        }
+    .siva{
+        margin-top: 0px;
+        color: grey;
+        margin-bottom: 15px;
+    }
+    .crvena{
+        color: crimson;
+    }
+    .thumbnails{
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        object-position: left;
+        border-radius: 300px;
+        vertical-align: middle;
+        
+    }
+    .searchbar{
+        height: 40px;
+        width: 300px;
+        vertical-align: middle;
+        border-style: none;
+        font-size: 15px;
+        padding-left: 10px;
+        color: gray;
+    }
+    .tvitaj{
+        background-color: rgb(10, 117, 174);
+        border-style: none;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 15px;
+        margin-left: -90px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        font-weight: bold;
+        margin-bottom: 100px;
+    }
+    .tvitaj:hover{
+        opacity: 0.7;
+    }
+    .tvitaj:active{
+        opacity: 0.4;
+    }
+    .linkedln{
+        margin-top: 0px;
+        margin-bottom:0px;
+    }
+    .p41{
+    margin-bottom: 5px;
+ 
+      
+    }
+    
+    .i21{
+        height: 20px;
+        width: 370px;
+        border-style: solid;
+    
+    }
+    .p22{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    
+    }
+    .b11{
+        background-color: rgb(0, 60, 255);
+        border-style: none;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 380px;
+        border-radius: 30px;
+        font-weight: bold;
+    
+    }
