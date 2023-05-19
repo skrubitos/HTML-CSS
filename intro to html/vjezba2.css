@@ -220,5 +220,65 @@
         width: 380px;
         border-radius: 30px;
         font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.15s;
     
     }
+    .b11:hover{
+        opacity: 0.7;
+    }
+
+    .uber{
+        font-family: Roboto;
+        color: black;
+        font-weight: bold;
+        vertical-align: middle;
+        font-size: 35px;
+        margin-left: 5px;
+        margin-bottom: 11px;
+       
+    }
+    .uber-input {
+        display: block;
+        align-items: center;
+        border-radius: 4px;
+        margin: auto;
+        margin-bottom: 10px;
+        border-style: none;
+        background-color: rgb(223, 220, 220);
+        width: 350px;
+        height: 38px;
+        font-size: 20px;
+        padding-left: 10px;
+        
+      }
+      
+  .za-oba{
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+        transition: opacity 0.15s;
+}
+.za-oba:hover{
+    opacity: 0.8;
+}
+.za-oba:active{
+    opacity: 0.5;
+}
+  .uber-request{
+    margin-top: 14px;
+    margin-left: 5px;
+background-color: black;
+color: white;
+border-style: none;
+margin-right: 15px;
+border-style: none;
+
+
+  }
+  .scheduele-later{
+  background-color: gainsboro;
+  border-style: none;
+  
+ 
+}
