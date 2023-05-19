@@ -279,6 +279,69 @@ border-style: none;
   .scheduele-later{
   background-color: gainsboro;
   border-style: none;
-  
  
+}
+.container-facebook:hover{
+    box-shadow: 5px 5px 20px rgb(54, 54, 205);
+
+}
+.container-facebook{
+
+border-radius: 10px;
+width: 180px;
+height: 250px;
+display: inline-block;
+margin-right: 10px;
+overflow: hidden;
+transform: box-shadow 0.15s;
+}
+.container-facebook img{
+width: 180px;
+height: 120px;
+object-fit: cover;
+
+
+}
+.container-facebook-name{
+font-weight: bold;
+font-size: 25px;
+padding-top: 5px;
+padding-left: 5px;
+vertical-align: top;
+
+}
+
+.container-facebook-mutal-friends{
+padding-left: 5px;
+color: grey;
+margin-top: 10px;
+font-size: 17px;
+vertical-align: top;
+
+}
+
+.container-facebook-add-friend{
+padding-left: 5px;
+margin-top: 15px;
+margin-left: 3px; 
+vertical-align: top;
+
+}
+.container-facebook-add-friend-button{
+background-color: blue;
+color: white;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 8px;
+padding-bottom: 8px;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transition: opacity 0.15s;
+border-style: none;
+
+
+}
+.container-facebook-add-friend-button:hover{
+opacity: 0.5;
 }
