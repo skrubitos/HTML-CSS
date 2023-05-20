@@ -422,3 +422,67 @@ opacity: 0.5;
 .botun button:hover{
     opacity: 0.7;
 }
+.ytklinac{
+    margin-left: 10px;
+    height: 200px;
+    width: 845px;
+    
+    margin-bottom: 20px;
+}
+.no-underline {
+  text-decoration: none;
+}
+
+.slikaklinac{
+    width: 360px;
+    height: 200px;
+    margin-top: 0px;
+    display: inline-block;
+
+}
+.slikaklinac img{
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.tekstklinac{
+    width: 450px;
+    height: 200px;
+    
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+}
+.nazivpjesmeklinac{
+    font-weight: 500;
+    font-size: 20px;
+}
+.preglediklinac{
+    font-weight: 300;
+    margin-top: -10px;
+}
+.nazivkanala{font-weight: 300;
+display: inline;
+
+}
+.slikakanalaklinac img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.checkmarkklinac{
+    padding-left: 5px;
+}
+.opis{
+    font-weight: 500;
+
+}
+.crnapozadinaklinac{
+    
+    color: black;
+    text-decoration: none;
+    font-family: Roboto, Arial;
+}
