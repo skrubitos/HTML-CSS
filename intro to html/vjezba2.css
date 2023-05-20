@@ -345,3 +345,80 @@ border-style: none;
 .container-facebook-add-friend-button:hover{
 opacity: 0.5;
 }
+.kontenjer{
+    width: 350px;
+    height: 100px;
+    display: inline-block;
+    background-color: rgba(235, 237, 240, 0.244);
+    border-radius: 15px;
+}
+.profile-picture{
+    margin-top: 10px;
+    height: 100px;
+    width: 85px;
+    display: inline-block;
+    
+    
+}
+.profile-picture img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+   
+    border-radius: 80%;
+   
+    
+    
+    
+}
+.text-based{
+    
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+   
+      
+    
+}
+.text-based p{
+    
+    margin: 0;
+    font-family: Roboto , Arial;
+    padding: 2px;
+    width: 100px;
+    
+}
+.name{font-weight: bold;
+    font-size: 20px;
+
+}
+.animal, .Popular{
+    color: rgb(171, 168, 168);
+    font-size: 18px;
+
+}
+.botun{
+    height: 100%;
+    display: inline-block;
+    margin-left: 35px;
+   vertical-align: middle;
+   
+    
+}
+.botun button{
+    background-color: rgb(23, 117, 210);
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    margin-left: 10px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+.botun button:hover{
+    opacity: 0.7;
+}
