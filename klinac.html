@@ -16,35 +16,44 @@ font-size: 15px;
 }
 body {background-color: black;
 }
+
 .ytklinac{
     margin-left: 10px;
-    height: 200px;
-    width: 845px;
-    
-    margin-bottom: 20px;
+    height: 333px;
+    width: 298px;
+    display: grid;
+    grid-template-columns: 365px 1fr;
+    grid-gap: 10px;
+    border-style: solid;
+    border-color: purple;   
+    margin-top: 30px;
 }
 .no-underline {
   text-decoration: none;
 }
 
 .slikaklinac{
-    width: 360px;
-    height: 200px;
-    margin-top: 0px;
+    width: 298px;
+    height: 165px;
     display: inline-block;
+    border-color: red;
+    border-style: solid;
+     
 
 }
 .slikaklinac img{
     width: 100%;
     border-radius: 15px;
     cursor: pointer;
+
+   
 }
 
 .tekstklinac{
-    width: 450px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     
-    display: inline-block;
+   
     margin-left: 5px;
     vertical-align: top;
 }
@@ -74,33 +83,40 @@ display: inline;
     font-weight: 300;
 
 }
+.yt-grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
 
 </style>
 
 </head>
 <body>
-    <div class="ytklinac">
-<div class="slikaklinac">
-    <a href="https://www.youtube.com/watch?v=HSxXSdUUrH8&pp=ygUGa2xpbmFj&ab_channel=BassivityDigital">
-    <img src="klinac.webp" alt=""></a>
-</div>
+<div  class="yt-grid">
+    <div  class="ytklinac">
+        <div 
+            class="slikaklinac">
+                <a href="https://www.youtube.com/watch?v=HSxXSdUUrH8&pp=ygUGa2xpbmFj&ab_channel=BassivityDigital">
+                <img src="klinac.webp" alt=""></a>
+        </div>
 
-<div class="tekstklinac">
-    <a class="no-underline" href="https://www.youtube.com/watch?v=HSxXSdUUrH8&pp=ygUGa2xpbmFj&ab_channel=BassivityDigital">
-        <p title="Dorde - Dylan Blue" class="nazivpjesmeklinac">
-Dorde - Dylan Blue
-</p></a>
-<p  class="preglediklinac">
-3,9 mil. pregleda &#183 prije 4 mjeseca
-</p>
-<div class="slikakanalaklinac">
-    <a class="no-underline" href="https://www.youtube.com/@bassivitydigital"><img src="slikakanala1.jpg"> <p class="nazivkanala">
-Bassivity Digital  <span class="checkmarkklinac">&#x2713</span></p></a></div>
+        <div class="tekstklinac">
+            <a class="no-underline" href="https://www.youtube.com/watch?v=HSxXSdUUrH8&pp=ygUGa2xpbmFj&ab_channel=BassivityDigital">
+                <p title="Dorde - Dylan Blue" class="nazivpjesmeklinac">Dorde - Dylan Blue</p>
+            </a>
+                <p  class="preglediklinac">3,9 mil. pregleda &#183 prije 4 mjeseca</p> 
+                    
+                <div class="slikakanalaklinac">
+                    <a class="no-underline" href="https://www.youtube.com/@bassivitydigital">
+                        <img src="slikakanala1.jpg"> 
+                        <p class="nazivkanala">Bassivity Digital  <span class="checkmarkklinac">&#x2713</span></p>
+                    </a>
+                </div>
 
-<p class="opis">Track #8: Dylan Blue Performed by: Đorđe Čarkić Written By: Đorđe Čarkić Produced by: Đorđe Čarkić, Vedran Todorović</p>
-
-</div>
+            <p class="opis">Track #8: Dylan Blue Performed by: Đorđe Čarkić Written By: Đorđe Čarkić Produced by: Đorđe Čarkić, Vedran Todorović</p>
+        </div>
     </div>
+
 
 
 
@@ -111,57 +127,43 @@ Bassivity Digital  <span class="checkmarkklinac">&#x2713</span></p></a></div>
              <img src="jonsnowklinac.webp" alt="">
             </a>
         </div>
-        
         <div class="tekstklinac">
-            <a href="https://www.youtube.com/watch?v=qoTQnF6fqno&ab_channel=Klinac-Topic" class="no-underline"><p title="Jon Snow" class="nazivpjesmeklinac">
-        Jon Snow
-        </p></a>
-        <p  class="preglediklinac">
-        2,1 mil. pregleda &#183 
-        </p>
-        <div class="slikakanalaklinac">
-            <a href="https://www.youtube.com/channel/UC4LyVYTPS2uE8mfB1ZHdUYA" class="no-underline">
-                 <img src="klinac2slika.jpg">
-                  <p title="Klinac Topic" class="nazivkanala">
-        Klinac Topic  <span class="checkmarkklinac">&#x2713</span>
-    </p>
-</a>
-</div>
-        
-        <p class="opis">Provided to YouTube by Apollo Jon Snow · Klinac · Đorđe Čarkić · Vedran Todorović · Đorđe Čarkić Jon Snow ℗ Apollo Released ...</p>
-       
-        
-
-
-        </div>
+            <a href="https://www.youtube.com/watch?v=qoTQnF6fqno&ab_channel=Klinac-Topic" class="no-underline">
+                <p title="Jon Snow" class="nazivpjesmeklinac">Jon Snow</p>
+            </a>
+                <p class="preglediklinac">2,1 mil. pregleda &#183</p>
+            <div class="slikakanalaklinac">
+                <a href="https://www.youtube.com/channel/UC4LyVYTPS2uE8mfB1ZHdUYA" class="no-underline">
+                    <img src="klinac2slika.jpg">
+                    <p title="Klinac Topic" class="nazivkanala">Klinac Topic  <span class="checkmarkklinac">&#x2713</span></p>
+                </a>
             </div>
+                <p class="opis">Provided to YouTube by Apollo Jon Snow · Klinac · Đorđe Čarkić · Vedran Todorović · Đorđe Čarkić Jon Snow ℗ Apollo Released ...</p>
+        </div>
+
+    </div>
             <div class="ytklinac">
                 <div class="slikaklinac">
                     <a href="https://www.youtube.com/watch?v=1zkV8LknLfE&ab_channel=Apollo">
-                        <img src="korakispredklinac.webp" ></a>
-                </div>
-                
-                <div class="tekstklinac">
-                    <a class="no-underline" href="https://www.youtube.com/watch?v=1zkV8LknLfE&ab_channel=Apollo">
-                        <p title="Klinac x Elon - Korak Ispred" class="nazivpjesmeklinac">
-                Klinac x Elon - Korak Ispred 
-                </p>
-            </a>
-                <p  class="preglediklinac">
-                19 mil. pregleda &#183 prije 4 godine
-                </p>
-                <a href="https://www.youtube.com/@ApolloDigital" class="no-underline"><div class="slikakanalaklinac"><img src="apolloklinac3.jpg"> <p  title="Apollo" class="nazivkanala">
-                Apollo  <span class="checkmarkklinac">&#x2713</span>
-            </p>
+                        <img src="korakispredklinac.webp" >
+                    </a>
+                </div>             
+    <div class="tekstklinac">
+        <a class="no-underline" href="https://www.youtube.com/watch?v=1zkV8LknLfE&ab_channel=Apollo">
+            <p title="Klinac x Elon - Korak Ispred" class="nazivpjesmeklinac">Klinac x Elon - Korak Ispred</p>
         </a>
-        </div>
+            <p class="preglediklinac">19 mil. pregleda &#183 prije 4 godine</p>
+        <a href="https://www.youtube.com/@ApolloDigital" class="no-underline">
+            <div class="slikakanalaklinac">
+                <img src="apolloklinac3.jpg">
+                <p title="Apollo" class="nazivkanala">Apollo <span class="checkmarkklinac">&#x2713</span></p>
+        </a>
+    </div>                
+                <p class="opis">Korak Ispred (feat. Elon) Muzika: Klinac/Elon Tekst: Klinac/Elon Aranzman: Klinac Mix/Master: Klinac Kamera/Montaza: Podlivsky ...</p>
                 
-                <p class="opis">orak Ispred (feat. Elon) Muzika: Klinac/Elon Tekst: Klinac/Elon Aranzman: Klinac Mix/Master: Klinac Kamera/Montaza: Podlivsky ...</p>
-                
-                </div>
-                    </div>
+            </div>                
                         
-
+        </div>
 </body>
 
 </html>

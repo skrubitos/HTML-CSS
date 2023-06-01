@@ -426,6 +426,7 @@ opacity: 0.5;
     margin-left: 10px;
     height: 200px;
     width: 845px;
+    display: inline-block;
     
     margin-bottom: 20px;
 }
